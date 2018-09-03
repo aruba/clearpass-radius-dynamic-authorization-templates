@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TipsContents xmlns="http://www.avendasys.com/tipsapiDefs/1.0">
+  <TipsHeader exportTime="Fri Aug 24 14:12:21 EDT 2018" version="6.7"/>
+  <RadiusCOATemplates>
+    <RadiusCOATemplate vendorId="29671" templateType="Disconnect" displayName="Meraki - Terminate Session" name="Meraki-Terminate-Session">
+      <AttributeList>
+        <Attribute inputRequired="Required" value="%{Radius:IETF:Calling-Station-Id}" name="Calling-Station-Id" type="Radius:IETF"/>
+        <Attribute inputRequired="Required" value="%{Radius:IETF:Acct-Session-Id}" name="Acct-Session-Id" type="Radius:IETF"/>
+        <Attribute inputRequired="Required" value="%{Radius:IETF:Event-Timestamp}" name="Event-Timestamp" type="Radius:IETF"/>
+      </AttributeList>
+    </RadiusCOATemplate>
+  </RadiusCOATemplates>
+</TipsContents>
