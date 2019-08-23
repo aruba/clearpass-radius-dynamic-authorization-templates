@@ -3,7 +3,7 @@ RADIUS Dynamic Authorization templates (Disconnect and CoA)
 
 Right Click > Save Link/Target As
 
-Import under Policy Manager > Administration > Dictionaries > CoA Templates
+Import under Policy Manager > Administration > Dictionaries > RADIUS Dynamic Authorization Templates
 
 
 ### Meraki
