@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TipsContents xmlns="http://www.avendasys.com/tipsapiDefs/1.0">
+  <TipsHeader exportTime="Fri Aug 23 10:44:19 EDT 2019" version="6.7"/>
+  <Dictionaries>
+    <Vendor vendorEnabled="true" prefix="Meraki" name="Radius:Meraki" id="29671">
+      <RadiusAttributes>
+        <Attribute profile="in out" type="String" name="Meraki-Device-Name" id="1"/>
+        <Attribute profile="in out" type="String" name="Meraki-Network-Name" id="2"/>
+        <Attribute profile="in out" type="String" name="Meraki-Ap-Name" id="3"/>
+        <Attribute profile="in out" type="String" name="Meraki-Ap-Tags" id="4"/>
+      </RadiusAttributes>
+    </Vendor>
+  </Dictionaries>
+</TipsContents>
