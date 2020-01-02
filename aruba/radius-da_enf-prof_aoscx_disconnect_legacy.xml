@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TipsContents xmlns="http://www.avendasys.com/tipsapiDefs/1.0">
+  <TipsHeader exportTime="Tue Nov 26 18:51:40 EST 2019" version="6.9"/>
+  <RadiusCoAEnfProfiles>
+    <RadiusCoAEnfProfile description="Enforcement profile to disconnect a device on AOS-CX switches for CPPM 6.8 and earlier." name="AOS-CX - Disconnect - Legacy" action="Disconnect" template="ArubaCX-Disconnect-Legacy">
+      <AttributeList>
+        <Attribute displayValue="%{Radius:IETF:Calling-Station-Id}" value="%{Radius:IETF:Calling-Station-Id}" name="Calling-Station-Id" type="Radius:IETF"/>
+        <Attribute displayValue="%{Radius:IETF:NAS-Port}" value="%{Radius:IETF:NAS-Port}" name="NAS-Port" type="Radius:IETF"/>
+        <Attribute displayValue="%{Radius:IETF:NAS-IP-Address}" value="%{Radius:IETF:NAS-IP-Address}" name="NAS-Identifier" type="Radius:IETF"/>
+        <Attribute displayValue="%{Radius:IETF:User-Name}" value="%{Radius:IETF:User-Name}" name="User-Name" type="Radius:IETF"/>
+        <Attribute displayValue="%{Radius:IETF:Event-Timestamp}" value="%{Radius:IETF:Event-Timestamp}" name="Event-Timestamp" type="Radius:IETF"/>
+      </AttributeList>
+    </RadiusCoAEnfProfile>
+  </RadiusCoAEnfProfiles>
+</TipsContents>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TipsContents xmlns="http://www.avendasys.com/tipsapiDefs/1.0">
+  <TipsHeader exportTime="Tue Sep 17 17:49:50 EDT 2019" version="6.8"/>
+  <Dictionaries>
+    <Vendor vendorEnabled="true" prefix="Aruba" name="Radius:Aruba" id="14823">
+      <RadiusAttributes>
+        <Attribute profile="in out" type="String" name="Aruba-ACL-Server-Query-Info" id="45"/>
+        <Attribute profile="in out" type="String" name="Aruba-AP-Group" id="10"/>
+        <Attribute profile="in out" type="IPv4Address" name="Aruba-AP-IP-Address" id="34"/>
+        <Attribute profile="in out" type="OctetArray" name="Aruba-AS-Credential-Hash" id="30" extraData="encrypt=1"/>
+        <Attribute profile="in out" type="String" name="Aruba-AS-User-Name" id="29" extraData="encrypt=1"/>
+        <Attribute profile="in out" type="String" name="Aruba-Admin-Path" id="42"/>
+        <Attribute profile="in out" type="String" name="Aruba-Admin-Role" id="4"/>
+        <Attribute profile="in out" type="Unsigned32" name="Aruba-AirGroup-Device-Type" id="27">
+          <ValidValues>
+            <ValidValue enumOrdinal="1" value="Personal-Device"/>
+            <ValidValue enumOrdinal="2" value="Shared-Device"/>
+            <ValidValue enumOrdinal="3" value="Deleted-Device"/>
+          </ValidValues>
+        </Attribute>
+        <Attribute profile="in out" type="String" name="Aruba-AirGroup-Shared-Group" id="35"/>
+        <Attribute profile="in out" type="String" name="Aruba-AirGroup-Shared-Role" id="26"/>
+        <Attribute profile="in out" type="String" name="Aruba-AirGroup-Shared-User" id="25"/>
+        <Attribute profile="in out" type="String" name="Aruba-AirGroup-User-Name" id="24"/>
+        <Attribute profile="in out" type="Unsigned32" name="Aruba-AirGroup-Version" id="38">
+          <ValidValues>
+            <ValidValue enumOrdinal="1" value="Aruba-AirGroup-Version-1"/>
+            <ValidValue enumOrdinal="2" value="Aruba-AirGroup-Version-2"/>
+          </ValidValues>
+        </Attribute>
+        <Attribute profile="in out" type="Unsigned32" name="Aruba-Auth-SurvMethod" id="39"/>
+        <Attribute profile="in out" type="String" name="Aruba-Auth-Survivability" id="28"/>
+        <Attribute profile="in out" type="String" name="Aruba-CPPM-Role" id="23"/>
+        <Attribute profile="in out" type="IPv4Address" name="Aruba-Calea-Server-Ip" id="41"/>
+        <Attribute profile="in out" type="String" name="Aruba-Captive-Portal-URL" id="43"/>
+        <Attribute profile="in out" type="String" name="Aruba-Command-String" id="46"/>
+        <Attribute profile="in out" type="String" name="Aruba-Device-Type" id="12"/>
+        <Attribute profile="in out" type="String" name="Aruba-Essid-Name" id="5"/>
+        <Attribute profile="in out" type="String" name="Aruba-Framed-IPv6-Address" id="11"/>
+        <Attribute profile="in out" type="String" name="Aruba-Location-Id" id="6"/>
+        <Attribute profile="in out" type="OctetArray" name="Aruba-MPSK-Passphrase" id="44" extraData="encrypt=2"/>
+        <Attribute profile="in out" type="String" name="Aruba-Mdps-Device-Iccid" id="17"/>
+        <Attribute profile="in out" type="String" name="Aruba-Mdps-Device-Imei" id="16"/>
+        <Attribute profile="in out" type="String" name="Aruba-Mdps-Device-Name" id="19"/>
+        <Attribute profile="in out" type="String" name="Aruba-Mdps-Device-Product" id="20"/>
+        <Attribute profile="in out" type="String" name="Aruba-Mdps-Device-Profile" id="33"/>
+        <Attribute profile="in out" type="String" name="Aruba-Mdps-Device-Serial" id="22"/>
+        <Attribute profile="in out" type="String" name="Aruba-Mdps-Device-Udid" id="15"/>
+        <Attribute profile="in out" type="String" name="Aruba-Mdps-Device-Version" id="21"/>
+        <Attribute profile="in out" type="Unsigned32" name="Aruba-Mdps-Max-Devices" id="18"/>
+        <Attribute profile="in out" type="String" name="Aruba-Mdps-Provisioning-Settings" id="32"/>
+        <Attribute profile="in out" type="String" name="Aruba-Named-User-Vlan" id="9"/>
+        <Attribute profile="in out" type="OctetArray" name="Aruba-Network-SSO-Token" id="37" extraData="encrypt=1"/>
+        <Attribute profile="in out" type="Unsigned32" name="Aruba-No-DHCP-Fingerprint" id="14"/>
+        <Attribute profile="in out" type="Unsigned32" name="Aruba-Port-Bounce-Host" id="40"/>
+        <Attribute profile="in out" type="String" name="Aruba-Port-Id" id="7"/>
+        <Attribute profile="in out" type="Unsigned32" name="Aruba-Priv-Admin-User" id="3"/>
+        <Attribute profile="in out" type="String" name="Aruba-Template-User" id="8"/>
+        <Attribute profile="in out" type="String" name="Aruba-User-Group" id="36"/>
+        <Attribute profile="in out" type="String" name="Aruba-User-Role" id="1"/>
+        <Attribute profile="in out" type="Unsigned32" name="Aruba-User-Vlan" id="2"/>
+        <Attribute profile="in out" type="String" name="Aruba-WorkSpace-App-Name" id="31"/>
+        <Attribute profile="in out" type="String" name="Aruba-Network-Profile" id="47"/>
+        <Attribute profile="in out" type="String" name="Aruba-Admin-Device-Group" id="48"/>
+        <Attribute profile="in out" type="Unsigned32" name="Aruba-PoE-Priority" id="49">
+          <ValidValues>
+            <ValidValue enumOrdinal="0" value="Critical"/>
+            <ValidValue enumOrdinal="1" value="High"/>
+            <ValidValue enumOrdinal="2" value="Low"/>
+          </ValidValues>
+        </Attribute>
+        <Attribute profile="in out" type="Unsigned32" name="Aruba-Port-Auth-Mode" id="50">
+          <ValidValues>
+            <ValidValue enumOrdinal="1" value="Infrastructure-Mode"/>
+            <ValidValue enumOrdinal="2" value="Client-Mode"/>
+          </ValidValues>
+        </Attribute>
+        <Attribute profile="in out" type="String" name="Aruba-NAS-Filter-Rule" id="51"/>
+        <Attribute profile="in out" type="Unsigned32" name="Aruba-QoS-Trust-Mode" id="52">
+          <ValidValues>
+            <ValidValue enumOrdinal="0" value="DSCP"/>
+            <ValidValue enumOrdinal="1" value="QoS"/>
+            <ValidValue enumOrdinal="2" value="None"/>
+          </ValidValues>
+        </Attribute>
+        <Attribute profile="in out" type="String" name="Aruba-UBT-Gateway-Role" id="53"/>
+        <Attribute profile="in out" type="String" name="Aruba-Gateway-Zone" id="54"/>
+      </RadiusAttributes>
+    </Vendor>
+  </Dictionaries>
+</TipsContents>

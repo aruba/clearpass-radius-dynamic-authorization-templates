@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TipsContents xmlns="http://www.avendasys.com/tipsapiDefs/1.0">
+  <TipsHeader exportTime="Thu Nov 21 15:10:29 EST 2019" version="6.8"/>
+  <RadiusCOATemplates>
+    <RadiusCOATemplate vendorId="14823" templateType="CoA" displayName="AOS-CX - Change User Role - Legacy" name="ArubaCX-Change-User-Role-Legacy">
+      <AttributeList>
+        <Attribute inputRequired="Not_Required" value="%{Radius:IETF:Calling-Station-Id}" name="Calling-Station-Id" type="Radius:IETF"/>
+        <Attribute inputRequired="Not_Required" value="%{Radius:IETF:NAS-Port}" name="NAS-Port" type="Radius:IETF"/>
+        <Attribute inputRequired="Not_Required" value="%{Radius:IETF:NAS-IP-Address}" name="NAS-IP-Address" type="Radius:IETF"/>
+        <Attribute inputRequired="Not_Required" value="%{Radius:IETF:User-Name}" name="User-Name" type="Radius:IETF"/>
+        <Attribute inputRequired="Not_Required" value="%{Radius:IETF:Event-Timestamp}" name="Event-Timestamp" type="Radius:IETF"/>
+        <Attribute inputRequired="Required" value="" name="Aruba-User-Role" type="Radius:Aruba"/>
+      </AttributeList>
+    </RadiusCOATemplate>
+  </RadiusCOATemplates>
+</TipsContents>
