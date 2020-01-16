@@ -6,7 +6,7 @@
       <AttributeList>
         <Attribute displayValue="%{Radius:IETF:Calling-Station-Id}" value="%{Radius:IETF:Calling-Station-Id}" name="Calling-Station-Id" type="Radius:IETF"/>
         <Attribute displayValue="%{Radius:IETF:NAS-Port}" value="%{Radius:IETF:NAS-Port}" name="NAS-Port" type="Radius:IETF"/>
-        <Attribute displayValue="%{Radius:IETF:NAS-IP-Address}" value="%{Radius:IETF:NAS-IP-Address}" name="NAS-Identifier" type="Radius:IETF"/>
+        <Attribute displayValue="%{Radius:IETF:NAS-IP-Address}" value="%{Radius:IETF:NAS-IP-Address}" name="NAS-IP-Address" type="Radius:IETF"/>
         <Attribute displayValue="%{Radius:IETF:User-Name}" value="%{Radius:IETF:User-Name}" name="User-Name" type="Radius:IETF"/>
         <Attribute displayValue="%{Radius:IETF:Event-Timestamp}" value="%{Radius:IETF:Event-Timestamp}" name="Event-Timestamp" type="Radius:IETF"/>
         <Attribute displayValue="12" value="12" name="Aruba-Port-Bounce-Host" type="Radius:Aruba"/>
