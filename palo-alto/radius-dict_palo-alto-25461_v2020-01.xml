@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TipsContents xmlns="http://www.avendasys.com/tipsapiDefs/1.0">
+  <TipsHeader exportTime="Mon Jan 20 17:12:20 EST 2020" version="6.8"/>
+  <Dictionaries>
+    <Vendor vendorEnabled="true" prefix="PaloAlto" name="Radius:PaloAlto" id="25461">
+      <RadiusAttributes>
+        <Attribute profile="in out" type="String" name="PaloAlto-Admin-Access-Domain" id="2"/>
+        <Attribute profile="in out" type="String" name="PaloAlto-Admin-Role" id="1"/>
+        <Attribute profile="in out" type="String" name="PaloAlto-Panorama-Admin-Access-Domain" id="4"/>
+        <Attribute profile="in out" type="String" name="PaloAlto-Panorama-Admin-Role" id="3"/>
+        <Attribute profile="in out" type="String" name="PaloAlto-User-Group" id="5"/>
+        <Attribute profile="in out" type="String" name="PaloAlto-User-Domain" id="6"/>
+        <Attribute profile="in out" type="String" name="PaloAlto-Client-Source-IP" id="7"/>
+        <Attribute profile="in out" type="String" name="PaloAlto-Client-OS" id="8"/>
+        <Attribute profile="in out" type="String" name="PaloAlto-Client-Hostname" id="9"/>
+        <Attribute profile="in out" type="String" name="PaloAlto-GlobalProtect-Client-Version" id="10"/>
+      </RadiusAttributes>
+    </Vendor>
+  </Dictionaries>
+</TipsContents>

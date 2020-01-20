@@ -27,3 +27,6 @@ Download (right click, Save Link/Target As) and import the pre-built enforcement
 [Disconnect Message](https://github.com/aruba/clearpass-radius-dynamic-authorization-templates/raw/master/meraki/radius-da-template_meraki_disconnect-message.xml)
 > NOTE: You must have the [Meraki RADIUS dictionary](https://github.com/aruba/clearpass-radius-dynamic-authorization-templates/raw/master/meraki/radius-dictionary_meraki.xml) installed.
 
+## Palo Alto
+* [Palo Alto RADIUS Dictionary v2020-01](https://github.com/aruba/clearpass-radius-dynamic-authorization-templates/raw/master/palo-alto/radius-dict_palo-alto-25461_v2020-01.xml)
+> Right click, Save Link/Target As
